@@ -1,0 +1,324 @@
+@font-face {
+    font-family: OpenSans-regular;
+    src: url(../media/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../media/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans_Condensed-Italic;
+    src: url(../media/fonts/OpenSans_Condensed-Italic.ttf);
+}
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: OpenSans-Bold;
+}
+.container-fluid
+{
+    padding: 0px;
+    
+}
+.whatTextCenter
+{
+    text-align: center;
+    margin-top:30px;
+    font-family: OpenSans-regular;
+}
+.whatTextCenter h1{text-transform: capitalize;}
+.whatTextCenter p{margin-top:30px;margin-bottom: 30px;}
+.card-img-top{width:50%;margin: auto;}
+.card-body{text-align: center;}
+.ValvePadding{padding-bottom:30px;}
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    right: 15px;
+    bottom: 15px;
+    background: #428bca;
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
+  }
+  
+  .back-to-top i {
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .back-to-top:hover {
+    color: #fff;
+    background: #629fd3;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  #footer {
+    background: #587187;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  #footer .footer-top {
+    background: #5c768d;
+    border-top: 1px solid #768fa6;
+    border-bottom: 1px solid #67839c;
+    padding: 60px 0 30px 0;
+  }
+  
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-info h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  #footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+  }
+  
+  #footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #768fa6;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+    background: #428bca;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #9eccf4;
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    color: #9eccf4;
+  }
+  
+  #footer .footer-top .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4;
+  }
+  
+  #footer .footer-top .footer-newsletter form input[type="email"] {
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+  }
+  
+  #footer .footer-top .footer-newsletter form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #428bca;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 4;
+  }
+  
+  #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+    background: #5295ce;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  #footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+  #footer .credits a {
+    color: #9eccf4;
+  }
+  .cardBorder1{border: none;}
+  .cardTextProduct
+  {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 151px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .carouselInner1
+  {
+    margin: auto;
+    width:50%;
+  }
+  .servicesPadding
+  {
+    margin-top:40px;
+    margin-bottom:40px;
+  }
+  .previousIcon
+  {
+    background-image: url(../media/images/previous.png);
+  }
+  .nextIcon
+  {
+    background-image: url(../media/images/next.png);
+  }
+.innerTextContact h1:before
+  {
+    content: "";
+    width: 55px;
+    height: 3px;
+    display: inline-block;
+    background: #fab90a;
+    position: absolute;
+    bottom: 0;
+    
+  }
+  .innerTextContact h1
+  {
+    font-family: OpenSans-Bold;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 20px;
+    letter-spacing: 0.3px;
+    margin: 0 0 1em;
+  }
+  .innerTextContact h6
+  {
+    color: #1088cc;
+    font: 400 1.2em/1.8em "Open Sans", sans-serif;
+    letter-spacing: 0.3px;
+    font-style: italic; 
+  }
+  .innerTextContact p
+  {
+    margin: 0 0 1.2em;
+    padding: 0;
+    font: 400 1em/1.8em "Open Sans", sans-serif;
+    color: #8E8D8D;
+  }
+  h6 span
+  {
+    color: #de5842;
+    font: 400 1.2em/1.8em "Open Sans", sans-serif;
+    letter-spacing: 0.3px;
+    font-style: italic;
+  }
+ .touch_top-con ul .item {
+    padding: 0px 122px 30px 0px;
+    text-align: center;
+}
+.touch_top-con ul .item .media .media-left {
+    padding-right: 30px;
+    vertical-align: middle;
+}
+ .touch_top-con ul .item .media .media-left a {
+    color: #009bb3;
+    border: 1px solid #009bb3;
+    border-radius: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.touch_top-con ul .item .media .media-left a i {
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 32px;
+    padding-top: 8px;
+}
+.touch_top-con ul .item .media .media-body {
+    text-align: left;
+    font: 14px/26px "Open Sans", sans-serif;
+    color: #898989;
+    letter-spacing: 0.3px;
+}
+ .touch_top-con ul .item .media .media-body a {
+    color: #898989;
+}
+ .touch_top-con ul .item .media .media-body a:hover {
+    color: #009bb3;
+}
+ .touch_top-con ul .item:first-child {
+    padding-top: 0;
+}
