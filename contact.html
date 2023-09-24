@@ -12,9 +12,9 @@
     
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-primary" data-bs-theme="dark"">
-        <div class="container">
-          <a class="navbar-brand" href="#">A G S Flow Solutions Pte Ltd</a>
+    <nav class="navbar fixed-top navbar-expand-lg bg-danger" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../AGS/media/images/logotransparent.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,36 +54,97 @@
         </div>
     </div>
     <div class="container">
-      <div class="innerTextContact">
-      <h1>Stay connected</h1>
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="bx bx-map"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Yishun Industrial Street 1, </div>
+            <div class="text-two">07-06 North Point Bizhub, Singapore 768159.</div>
+          </div>
+          <div class="phone details">
+            <i class="bx bx-phone"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+65 67087426</div>
+            <div class="text-two"></div>
+          </div>
+          <div class="email details">
+            <i class="bx bx-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">sales@agsflow.com.sg</div>
+            <div class="text-two"></div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Stay connected</div>
           <p>You can talk to our representative at any time.</p>
           <h6>Please be patient, We will get back to you. Our 24/7 Support, <span>General enquiries Phone: +65 67087426 </span></h6>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <h4>A G S FLOW SOLUTIONS PTE LTD</h4>
-          <div class="touch_top-con">
-          <ul class="nav">
-            <li class="item">
-              <div class="media">
-                <div class="media-left"><a href="#"><i class="bx bx-map"></i></a></div>
-                <div class="media-body">Yishun Industrial Street 1, 07-06 North Point Bizhub,              Singapore 768159.</div>
-              </div>
-            </li>
-            <li class="item">
-              <div class="media">
-                <div class="media-left"><a href="#"><i class="bx bx-envelope"></i></a></div>
-                <div class="media-body"><a href="mailto:sales@agsflow.com.sg">sales@agsflow.com.sg</a></div>
-              </div>
-            </li>
-            <li class="item">
-              <div class="media">
-                <div class="media-left"><a href="#"><i class="bx bx-phone"></i></a></div>
-                <div class="media-body">+65 67087426</div>
-              </div>
-            </li>
-          </ul>
-          </div>
+          
+          <form id ="contact-form" action="contact.php" method="POST">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <div class="md-form">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" required name="Name" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                    <div class="md-form">
+                        <div class="md-form">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" required name="Email" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+            </div><br>
+            
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <!--<div class="row">
+                <div class="col-md-12">
+                    <div class="md-form">
+                        <input type="text" id="subject" name="subject" class="form-control">
+                        <label for="subject" class="">Subject</label>
+                    </div>
+                </div>
+            </div>-->
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                    <div class="md-form">
+                      
+                        <textarea type="text" id="message" required name="Message" class="md-textarea" placeholder="Type message here"></textarea>
+                       
+                    </div>
+
+                </div>
+            </div>
+            <!--Grid row-->
+<!--<button class="w3-button w3-black w3-right w3-section SubmitButton" type="submit">
+<i class="fa fa-paper-plane"></i> SEND MESSAGE
+</button>-->	
+<div class="center-on-small-only">
+            <button class="btn btn-primary submitButton">Send</button>
+        </div> <div class="status" id="status"></div>
+    </div>				
+        </form>
         </div>
       </div>
     </div>
@@ -133,6 +194,7 @@
                 <li><i class="bx bx-chevron-right"></i> <a href="#"></a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="#"></a></li>
               </ul>-->
+              Extensive experience in valves and valves automation we are the right partner to support you.
             </div>
   
             
